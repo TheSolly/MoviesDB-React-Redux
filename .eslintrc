@@ -1,0 +1,61 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": [2, "safe"],
+    "no-debugger": 2,
+    "brace-style": [
+      2,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "no-trailing-spaces": 2,
+    "keyword-spacing": 2,
+    "space-before-function-paren": [2, "never"],
+    "spaced-comment": [2, "always"],
+    "vars-on-top": 2,
+    "guard-for-in": 2,
+    "no-eval": 2,
+    "no-with": 2,
+    "valid-typeof": 2,
+    "no-continue": 1,
+    "no-extra-semi": 1,
+    "no-unreachable": 1,
+    "no-unused-expressions": 1,
+    "space-in-parens": [0, "always"],
+    "template-curly-spacing": [2, "always"],
+    "object-curly-spacing": [2, "always"],
+    "computed-property-spacing": [2, "always"],
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 1,
+        "maxEOF": 0,
+        "maxBOF": 0
+      }
+    ],
+    "no-use-before-define": [
+      2,
+      {
+        "functions": false
+      }
+    ],
+    "semi": [0, "never"],
+    "prefer-const": 1,
+    "react/prefer-es6-class": 0,
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": [1],
+    "no-undef": [1],
+    "no-case-declarations": [1],
+    "no-return-assign": [1],
+    "no-param-reassign": [1],
+    "no-shadow": [1],
+    "camelcase": [1],
+    "no-underscore-dangle": [0, "always"]
+  }
+}
